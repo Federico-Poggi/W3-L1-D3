@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">GROUP TASKS</h1>
+      <nav id="navebar">
+        <ul>
+          <li>Add Tasks</li>
+          <li>Tasks List</li>
+          <li>Deleted Tasks</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- il primo dovra comparire premendo add tasks -->
+      <form id="tasks-add">
+        <label for="task">Task</label>
+        <input type="text" name="tasks" id="task" placeholder="Insert Task" />
+
+        <label for="time">Time for the task</label>
+        <input type="text" placeholder="time" id="time" />
+        <button type="submit">Add Task</button>
+      </form>
+      <!-- il secondo div comparirà solo dopo aver aggiunto la prima tasks -->
+      <div id="tasks-list"></div>
+      <!-- il terzo div comparira solo quando si premera deleted tasks -->
+      <div id="deleted-tasks"></div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

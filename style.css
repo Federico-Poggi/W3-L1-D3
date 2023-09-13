@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+}
+
+
+header{
+    display: inline-flex;
+
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+#navebar{
+    text-align: center;
+    padding-left: 50px;
+}
+
+li{
+    display: inline-block;
+    padding: 2em;
+}
+
+ul:first-of-type{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+}
